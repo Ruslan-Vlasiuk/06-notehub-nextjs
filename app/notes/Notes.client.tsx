@@ -7,7 +7,7 @@ import Modal from "../../components/Modal/Modal";
 import NoteForm from "../../components/NoteForm/NoteForm";
 import Pagination from "../../components/Pagination/Pagination";
 import SearchBox from "../../components/SearchBox/SearchBox";
-import { fetchNotes } from "../../lib/api";
+import { fetchNotes } from "../../lib/api/notes";
 import css from "./NotesPage.module.css";
 
 const PER_PAGE = 12;
